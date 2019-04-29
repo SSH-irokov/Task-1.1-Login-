@@ -18,8 +18,9 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="mstiteli.orig" translatesAutoresizingMaskIntoConstraints="NO" id="R2M-K4-iYk">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="R2M-K4-iYk">
                                 <rect key="frame" x="0.0" y="64" width="414" height="672"/>
+                                <color key="backgroundColor" red="0.73111999029999997" green="0.92097252610000002" blue="0.99245399239999998" alpha="0.51091609589999998" colorSpace="custom" customColorSpace="sRGB"/>
                             </imageView>
                             <imageView userInteractionEnabled="NO" alpha="0.69999999999999996" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="EPK-8w-jwX">
                                 <rect key="frame" x="32" y="104" width="350" height="303"/>
@@ -74,7 +75,7 @@
                                     <constraint firstAttribute="height" constant="37" id="kOL-PM-96n"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="19"/>
-                                <state key="normal" title="Sing In">
+                                <state key="normal" title="Sign In">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
@@ -194,9 +195,6 @@
             <point key="canvasLocation" x="136.80000000000001" y="131.78410794602701"/>
         </scene>
     </scenes>
-    <resources>
-        <image name="mstiteli.orig" width="898" height="1440"/>
-    </resources>
     <inferredMetricsTieBreakers>
         <segue reference="Q1M-EB-uPN"/>
     </inferredMetricsTieBreakers>
